@@ -1,0 +1,14 @@
+/*Definiciones de selectores*/
+body{
+    background-color: white;
+    color: #222;
+}
+/*Definiciones de clases y ids*/
+#educacion{
+    background-color: #222;
+    color: white;
+}
+#experiencia{
+    background-color: #222;
+    color: white;
+}
