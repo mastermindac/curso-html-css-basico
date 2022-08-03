@@ -33,6 +33,10 @@ i{
 .seccion{
     padding: 10px 100px 10px 100px;
 }
+#redessociales{
+    margin-top: 20px;
+    list-style: none;
+}
 #inicio{
     background-image: url("../imagenes/inicio.png");
     background-repeat: no-repeat;
