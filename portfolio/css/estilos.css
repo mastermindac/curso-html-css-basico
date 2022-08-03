@@ -30,6 +30,12 @@ cite{
 .seccion{
     padding: 10px 100px 10px 100px;
 }
+#inicio{
+    background-image: url("../imagenes/inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+}
 #experiencia{
     background-color: white;
     color: #222;
