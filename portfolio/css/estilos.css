@@ -26,6 +26,11 @@ cite{
 i{
     font-size: 24px;
 }
+li{
+    float: left;
+    /*width: 30px;*/
+    margin-right: 5px;
+}
 /*CSS IDs y Clase*/
 .hastag{
     color: #ffc900;
