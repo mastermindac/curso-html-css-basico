@@ -23,6 +23,9 @@ p{
 cite{
     font-weight: 300;
 }
+i{
+    font-size: 24px;
+}
 /*CSS IDs y Clase*/
 .hastag{
     color: #ffc900;
