@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+/*Definiciones de selectores*/
+body{
+    background-color: white;
+    color: #222;
+    font: 200 14px 'Poppins', sans-serif
+}
+h1{
+    font-size: 42px;
+    font-weight: 400;
+}
+h2{
+    font-size: 36px;
+    font-weight: 300;
+}
+h3 {
+    color:#ffc900;
+    font-weight: 200;
+}
+p{
+    text-align: justify;
+}
+thead{
+    background-color: #222;
+    color: white;
+}
+td{
+    min-width: 150px;
+}
+li{
+    list-style: none;
+    float:left;
+}
+i{
+    margin-right: 5px;
+}
+/*Definiciones de clases y ids*/
+#educacion{
+    background-color: #222;
+    color: white;
+}
+#experiencia{
+    border-top: 1px solid #ffc900;
+    background-color: #222;
+    color:
+     white;
+}
+.seccion{
+    padding: 10px 100px 10px 100px;
+}
