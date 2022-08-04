@@ -26,6 +26,18 @@ cite{
 i{
     font-size: 24px;
 }
+i:hover{
+    color: #ffc900;
+}
+a:any-link{
+    color:white;
+}
+a:-webkit-any-link {
+    color:white;
+}
+a:-moz-any-link {
+    color:white;
+}
 li{
     float: left;
     /*width: 30px;*/
