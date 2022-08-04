@@ -17,6 +17,9 @@ h3{
     font-size: 18px;
     font-weight: 300;
 }
+section{
+    padding: 10px 100px 10px 100px;
+}
 p{
     text-align: justify;
 }
