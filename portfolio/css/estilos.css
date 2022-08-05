@@ -99,6 +99,15 @@ li{
     border-top: 1px solid #ffc900;
 }
 /*Card portfolio*/
+.filaportfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 .card{
     width: 250px;
     background-color: #191919;
