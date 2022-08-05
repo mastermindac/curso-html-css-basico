@@ -98,3 +98,32 @@ li{
 #portfolio{
     border-top: 1px solid #ffc900;
 }
+/*Card portfolio*/
+.card{
+    width: 250px;
+    background-color: #191919;
+}
+.card h3{
+    color: #ffc900;
+}
+.card h4{
+    margin:0 5px 5px 0;
+}
+.card h3,.card h4,.card p,.card .masinfo{
+    padding: 0 15px;
+}
+.card .masinfo {
+    margin: 15px 0px 15px 0 px;
+    height: 26px;
+}
+.card .masinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+.card .sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #ffc900;
+}
