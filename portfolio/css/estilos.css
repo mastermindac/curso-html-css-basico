@@ -17,6 +17,20 @@ h3{
     font-size: 18px;
     font-weight: 300;
 }
+nav{
+    position:fixed;
+    width: 100%;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 12px;;
+}
 section{
     padding: 10px 100px 10px 100px;
 }
@@ -39,7 +53,11 @@ a:-webkit-any-link {
     color:white;
 }
 a:-moz-any-link {
-    color:white;
+    color:
+    white;
+}
+ul{
+    list-style: none;  
 }
 li{
     float: left;
@@ -53,15 +71,18 @@ li{
 .seccion{
     padding: 10px 100px 10px 100px;
 }
+#logo{
+    padding-top: 0px;
+}
 #redessociales{
     margin-top: 20px;
-    list-style: none;
 }
 #inicio{
     background-image: url("../imagenes/inicio.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 280px;
+    padding-top: 65px;
 }
 #experiencia{
     background-color: white;
