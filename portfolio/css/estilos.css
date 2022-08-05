@@ -20,6 +20,7 @@ h3{
 nav{
     position:fixed;
     width: 100%;
+    height: 55px;
     background-color: #222;
     border-bottom: 1px solid white;
     padding-top: 10px;
@@ -46,6 +47,9 @@ i{
 i:hover{
     color: #ffc900;
 }
+a{
+    text-decoration: none;
+}
 a:any-link{
     color:white;
 }
@@ -55,6 +59,9 @@ a:-webkit-any-link {
 a:-moz-any-link {
     color:
     white;
+}
+a:hover{
+    color: #ffc900;
 }
 ul{
     list-style: none;  
@@ -82,7 +89,7 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 280px;
-    padding-top: 65px;
+    padding-top: 75px;
 }
 #experiencia{
     background-color: white;
