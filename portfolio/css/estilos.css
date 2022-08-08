@@ -101,6 +101,32 @@ button{
 #portfolio{
     border-top: 1px solid #ffc900;
 }
+.masinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+/*Grid sobremi*/
+#sobremi{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+#sobremi h2{
+    margin-bottom: 15px;
+}
+#sobremi .masinfo{
+    margin-top: 15px
+}
+#sobremi .masinfo button
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /*Card portfolio*/
 .filaportfolio{
     display: flex;
@@ -132,18 +158,11 @@ button{
     margin: 15px 0px 15px 0 px;
     height: 26px;
 }
-.card .masinfo button{
-    background-color: #ffc900;
-    font-weight: 600;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: right;
-}
+
 .card .sep{
     margin: 0 5px 5px 0;
     border: 1px solid #ffc900;
 }
-.card button{
-    margin-top: 5px;
-    padding: 5px;
+.card .masinfo button{
+    float: right;
 }
