@@ -167,6 +167,13 @@ button{
     float: right;
 }
 /*Card experiencia*/
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(4,350px);
+    grid-gap:10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
 .cardexp{
     background-color: #222;
     border-radius: 15px;
