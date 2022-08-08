@@ -71,6 +71,9 @@ li{
     /*width: 30px;*/
     margin-right: 5px;
 }
+button{
+    border-radius: 10px;
+}
 /*CSS IDs y Clase*/
 .hastag{
     color: #ffc900;
@@ -111,6 +114,10 @@ li{
 .card{
     width: 250px;
     background-color: #191919;
+    border-radius: 15px;
+}
+.card img{
+    border-radius: 15px 15px 0 0;
 }
 .card h3{
     color: #ffc900;
@@ -135,4 +142,8 @@ li{
 .card .sep{
     margin: 0 5px 5px 0;
     border: 1px solid #ffc900;
+}
+.card button{
+    margin-top: 5px;
+    padding: 5px;
 }
