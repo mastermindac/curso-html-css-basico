@@ -74,6 +74,17 @@ li{
 button{
     border-radius: 10px;
 }
+footer{
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li{
+    float:left;
+}
 /*CSS IDs y Clase*/
 .hastag{
     color: #ffc900;
@@ -81,7 +92,7 @@ button{
 .seccion{
     padding: 10px 100px 10px 100px;
 }
-#logo{
+.logo{
     padding-top: 0px;
 }
 #redessociales{
@@ -126,6 +137,10 @@ button{
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
+}
+#contactar{
+    background-color: #ffc900;
+    color: #222;
 }
 /*Card portfolio*/
 .filaportfolio{
@@ -196,3 +211,26 @@ button{
 .cardexp li{
     height: 30px;
 }
+/*Formulario*/
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700;
+}
+.itemform input,.itemform textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    background-color: #222;
+    border: 1px solid #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
+

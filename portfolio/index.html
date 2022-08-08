@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="#sobremi">sobre mi</a></li>
                 <li><a href="#portfolio">portfolio</a></li>
-                <li id="logo"><img src="./imagenes/cascos.png" alt="logo de Luis"></li>
+                <li class="logo"><img src="./imagenes/cascos.png" alt="logo de Luis"></li>
                 <li><a href="#experiencia">skills</a></li>
                 <li><a href="#contactar">contactar</a></li>
             </ul>
@@ -154,9 +154,37 @@
             </section>
             <!--Bloque Portfolio-->
             <section id="contactar">
+                <h2>Contacto</h2>
+                <h3>Envíame tus dudas</h3>
+                <form action="#">
+                    <div class="itemform">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" minlength="2" maxlength="128" size="32">
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="boton" value="CONTACTAR">
+                    </div>
+                </form>
             </section>
         </article>
         <!-- Footer -->
-        <footer></footer>
+        <footer>
+            <ul>
+                <li class="logo"><a href="#inicio"><img src="./imagenes/cascos.png" alt=""></a></li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            </ul>
+        </footer>
     </body>
 </html>
