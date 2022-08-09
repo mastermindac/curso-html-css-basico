@@ -30,10 +30,11 @@ nav ul{
     display: inline-block;
 }
 nav ul li{
-    padding-top: 12px;;
+    padding-top: 12px;
+    text-transform: uppercase;
 }
 section{
-    padding: 10px 100px 10px 100px;
+    padding: 30px 100px 30px 100px;
 }
 p{
     text-align: justify;
@@ -103,11 +104,18 @@ footer ul li{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 280px;
-    padding-top: 75px;
+    padding-top: 95px;
 }
 #experiencia{
     background-color: white;
     color: #222;
+}
+#experiencia h2,#portfolio h2{
+    text-align: center;
+}
+#experiencia h3,#portfolio h3{
+    text-align: center;
+    margin-bottom: 30px;
 }
 #portfolio{
     border-top: 1px solid #ffc900;
@@ -119,6 +127,11 @@ footer ul li{
     padding-right: 15px;
     margin-top: 5px;
     padding: 5px;
+}
+#contactar{
+    background-image: url("../imagenes/fondo_contactar.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 /*Grid sobremi*/
 #sobremi{
@@ -157,7 +170,7 @@ footer ul li{
     background-color: #191919;
     border-radius: 15px;
 }
-.card img{
+.card img,.card video,.card iframe{
     border-radius: 15px 15px 0 0;
 }
 .card h3{
@@ -189,6 +202,18 @@ footer ul li{
     justify-content: space-between;
     align-content: space-around;
 }
+@media (min-width: 400px){
+    .gridexp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+
 .cardexp{
     background-color: #222;
     border-radius: 15px;
