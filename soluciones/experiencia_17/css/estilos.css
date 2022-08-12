@@ -84,6 +84,10 @@ li{
 #datos{
     padding-top: 65px;
 }
+#datoscontenedor{
+    display: flex;
+    column-gap: 10px;
+}
 #educacion{
     background-color: #222;
     color: white;
