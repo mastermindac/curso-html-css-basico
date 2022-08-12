@@ -1,0 +1,261 @@
+/*CSS general de elementos*/
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #222;
+    color: white;
+    font: 200 14px 'Poppins', sans-serif;
+}
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+h3{
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+nav{
+    position:fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+section{
+    padding: 30px 100px 30px 100px;
+}
+p{
+    text-align: justify;
+}
+cite{
+    font-weight: 300;
+}
+i{
+    font-size: 24px;
+}
+i:hover{
+    color: #ffc900;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color:white;
+}
+a:-webkit-any-link {
+    color:white;
+}
+a:-moz-any-link {
+    color:
+    white;
+}
+a:hover{
+    color: #ffc900;
+}
+ul{
+    list-style: none;  
+}
+li{
+    float: left;
+    /*width: 30px;*/
+    margin-right: 5px;
+}
+button{
+    border-radius: 10px;
+}
+footer{
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li{
+    float:left;
+}
+/*CSS IDs y Clase*/
+.hastag{
+    color: #ffc900;
+}
+.seccion{
+    padding: 10px 100px 10px 100px;
+}
+.logo{
+    padding-top: 0px;
+}
+#redessociales{
+    margin-top: 20px;
+}
+#inicio{
+    background-image: url("../imagenes/inicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+    padding-top: 95px;
+}
+#experiencia{
+    background-color: white;
+    color: #222;
+}
+#experiencia h2,#portfolio h2{
+    text-align: center;
+}
+#experiencia h3,#portfolio h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#portfolio{
+    border-top: 1px solid #ffc900;
+}
+.masinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+#contactar{
+    background-image: url("../imagenes/fondo_contactar.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/*Grid sobremi*/
+#sobremi{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+#sobremi h2{
+    margin-bottom: 15px;
+}
+#sobremi .masinfo{
+    margin-top: 15px
+}
+#sobremi .masinfo button
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#contactar{
+    background-color: #ffc900;
+    color: #222;
+}
+/*Card portfolio*/
+.filaportfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.card{
+    width: 250px;
+    background-color: #191919;
+    border-radius: 15px;
+}
+.card img,.card video,.card iframe{
+    border-radius: 15px 15px 0 0;
+}
+.card h3{
+    color: #ffc900;
+}
+.card h4{
+    margin:0 5px 5px 0;
+}
+.card h3,.card h4,.card p,.card .masinfo{
+    padding: 0 15px;
+}
+.card .masinfo {
+    margin: 15px 0px 15px 0 px;
+    height: 26px;
+}
+
+.card .sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #ffc900;
+}
+.card .masinfo button{
+    float: right;
+}
+/*Card experiencia*/
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(4,350px);
+    grid-gap:10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+@media (min-width: 400px){
+    .gridexp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+
+.cardexp{
+    background-color: #222;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+.cardexp h2{
+    margin-bottom: 5px;
+}
+.cardexp h3{
+    margin-bottom: 20px;
+}
+.cardexp p{
+    margin-bottom: 20px;
+}
+.cardexp ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardexp li{
+    height: 30px;
+}
+/*Formulario*/
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700;
+}
+.itemform input,.itemform textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    background-color: #222;
+    border: 1px solid #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
+
